@@ -15,6 +15,7 @@
 		953496DC1E5EE7FF00FF700A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 953496DA1E5EE7FF00FF700A /* LaunchScreen.storyboard */; };
 		953496E71E5EE7FF00FF700A /* BastTextTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 953496E61E5EE7FF00FF700A /* BastTextTests.m */; };
 		953496F21E5EE7FF00FF700A /* BastTextUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 953496F11E5EE7FF00FF700A /* BastTextUITests.m */; };
+		953497011E5EEB7900FF700A /* model.m in Sources */ = {isa = PBXBuildFile; fileRef = 953497001E5EEB7900FF700A /* model.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		953496ED1E5EE7FF00FF700A /* BastTextUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BastTextUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		953496F11E5EE7FF00FF700A /* BastTextUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BastTextUITests.m; sourceTree = "<group>"; };
 		953496F31E5EE7FF00FF700A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		953496FF1E5EEB7900FF700A /* model.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = model.h; sourceTree = "<group>"; };
+		953497001E5EEB7900FF700A /* model.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = model.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +108,8 @@
 				953496D01E5EE7FF00FF700A /* AppDelegate.m */,
 				953496D21E5EE7FF00FF700A /* ViewController.h */,
 				953496D31E5EE7FF00FF700A /* ViewController.m */,
+				953496FF1E5EEB7900FF700A /* model.h */,
+				953497001E5EEB7900FF700A /* model.m */,
 				953496D51E5EE7FF00FF700A /* Main.storyboard */,
 				953496D81E5EE7FF00FF700A /* Assets.xcassets */,
 				953496DA1E5EE7FF00FF700A /* LaunchScreen.storyboard */,
@@ -276,6 +281,7 @@
 				953496D41E5EE7FF00FF700A /* ViewController.m in Sources */,
 				953496D11E5EE7FF00FF700A /* AppDelegate.m in Sources */,
 				953496CE1E5EE7FF00FF700A /* main.m in Sources */,
+				953497011E5EEB7900FF700A /* model.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -507,6 +513,7 @@
 				953496F81E5EE7FF00FF700A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		953496F91E5EE7FF00FF700A /* Build configuration list for PBXNativeTarget "BastTextTests" */ = {
 			isa = XCConfigurationList;
@@ -515,6 +522,7 @@
 				953496FB1E5EE7FF00FF700A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		953496FC1E5EE7FF00FF700A /* Build configuration list for PBXNativeTarget "BastTextUITests" */ = {
 			isa = XCConfigurationList;
@@ -523,6 +531,7 @@
 				953496FE1E5EE7FF00FF700A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
