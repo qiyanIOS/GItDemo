@@ -21,6 +21,12 @@
     self.view.backgroundColor=[UIColor redColor];
     int a =0;
     int b=0;
+    int sum=0;
+    for (int i=0;i<3;i++) {
+        a++;
+    }
+    sum=a+b;
+    NSLog(@"%d",sum);
     
 }
 
